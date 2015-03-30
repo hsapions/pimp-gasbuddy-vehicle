@@ -7,7 +7,7 @@
 //		orange gas pump http://i60.tinypic.com/21e45yd.jpg
 // 		yellow gas pump http://i60.tinypic.com/2gw9uoo.jpg
 // @namespace    http://your.homepage/
-// @version      0.2
+// @version      0.3
 // @description  pimp your ride: change gasbuddy cars to something else - this works on *gasbuddy.com and *gasprices.com.
 // All this does is look for the specified image and replace with an alternate hosted on tinypics.
 // @author       Homer Sapions
@@ -23,7 +23,11 @@ Usage rights - free forever. Nobody should ever pay anything for this.
 Warranties - none. There is no code to touch anything on your computer or interfere with anything in your browsing. This is a simple inline HTML
 image replacement only, and that only for the specified vehicles, and only on gasbuddy sites.
 
-This only watches for http*://gasbuddy.com and http*://*gasprices.com and replaces a stadard image with a different image
+Tested with:
+	Google Chrome 37.0.2062.94 m / TamperMonkey v 3.9.202
+    Firefox 35.0 / GreaseMonkey v 2.3
+    Opera 12.17 / ViolentMonkey v 1.6.8
+This only watches for http*://gasbuddy.com and http*://*gasprices.com and replaces a standard image with a different image
 NOTE: This only affects your display. It can not, and will not ever change any gasbuddy data, change your points or ranking.
 Do not depend on this and the images it displays to remind you of your consecutive days 'speed stripes'. You should verify for
 yourself that your points are appropriately awarded each day and that you have your consecutive days speed stripes.
